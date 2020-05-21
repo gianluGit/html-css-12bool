@@ -7,16 +7,26 @@
 /* regole di debug */
 [class*="col-"] {
   border: 1px solid black;
-  height: 200px;
+  min-height: 200px;
 }
 
 .container {
   background-color: pink;
 }
-/*  */
+
 
 span {
   line-height: 200px;
   display: block;
   text-align: center;
 }
+
+footer .col-6 > .container {
+  padding: 10px;
+}
+
+footer .col-2, footer .col-8, footer .col-6 .col-6 {
+  border: 1px solid white;
+  background-color: lightgreen;
+}
+/*  */
