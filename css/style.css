@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole di debug */
+[class*="col-"] {
+  border: 1px solid black;
+  height: 200px;
+}
+
+.container {
+  background-color: pink;
+}
+/*  */
+
+span {
+  line-height: 200px;
+  display: block;
+  text-align: center;
+}
